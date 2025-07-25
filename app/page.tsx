@@ -36,7 +36,7 @@ export default function Home() {
                 {galleries.map((gallery) => (
                   <div
                     key={gallery.id}
-                    className="relative cursor-pointer flex-1 transition-all duration-700 ease-out hover:flex-[8] overflow-hidden rounded-2xl"
+                    className="relative cursor-pointer flex-1 transition-all duration-700 ease-out hover:flex-[8] overflow-hidden rounded"
                     onMouseEnter={() => setHoveredCard(gallery.id)}
                     onMouseLeave={() => setHoveredCard(null)}
                     onClick={() => handleCardClick(gallery.url)}
