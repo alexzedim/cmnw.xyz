@@ -31,7 +31,7 @@ export default function Home() {
 
         {/* Cards Section */}
         <main className="flex-1 px-8 pb-12">
-          <div className="max-w-full mx-auto h-[600px]">
+          <div className="max-w-full mx-auto h-[800px]">
             <div className="flex h-full gap-2 group">
                 {galleries.map((gallery) => (
                   <div
