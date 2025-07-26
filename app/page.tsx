@@ -59,7 +59,7 @@ export default function Home() {
                     <div className="relative z-10 h-full flex flex-col justify-center items-center p-6">
                       {/* Collapsed State - Vertical Text */}
                       <div className={`absolute inset-0 flex items-center justify-center transition-all duration-700 ${hoveredCard === gallery.id ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
-                        <h1 className="text-white font-bold text-lg writing-mode-vertical transform -rotate-90 whitespace-nowrap tracking-wider">
+                        <h1 className={gallery.collapsedState}>
                           {gallery.title}
                         </h1>
                       </div>
@@ -67,7 +67,7 @@ export default function Home() {
                       {/* Expanded State - Horizontal Text */}
                       <div className={`absolute inset-0 flex flex-col justify-center items-center text-center transition-all duration-700 ${hoveredCard === gallery.id ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                         <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 max-w-md">
-                          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+                          <h1 className={gallery.expandedState}>
                             {gallery.title}
                           </h1>
                           <div className="w-16 h-1 bg-blue-400 mx-auto rounded-full opacity-80" />

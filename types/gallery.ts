@@ -3,4 +3,6 @@ export interface Gallery {
   title: string;
   url: string;
   image: string;
-} 
+  collapsedState: string;
+  expandedState: string;
+}
