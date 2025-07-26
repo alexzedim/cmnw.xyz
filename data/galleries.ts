@@ -21,8 +21,8 @@ export const galleries: Gallery[] = [
   },
   {
     id: 4,
-    title: "Portraits & Souls",
-    url: "https://example.com/portraits",
+    title: "Храм Пяти Рассветов",
+    url: "https://temple-five-dawns.vercel.app",
     image: "https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200",
   },
   {
@@ -31,4 +31,4 @@ export const galleries: Gallery[] = [
     url: "https://example.com/minimalist",
     image: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200",
   }
-]; 
+];
